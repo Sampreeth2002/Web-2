@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+div {
+  color: white;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: url(./images/EwFoRv.jpg) no-repeat;
+  background-size: cover;
+}
+
+.con ul li {
+  background-color: #1f2833;
+  width: 150px;
+  border: 1px solid black;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: inline-start;
+  color: #66fcf1;
+  position: relative;
+}
+.con ul li:hover {
+  background-color: #e7717d;
+}
+.con ul ul {
+  display: none;
+  margin-left: 150px;
+  top: 0px;
+  position: absolute;
+}
+.con ul li:hover > ul {
+  display: block;
+}
+.con ul ul ul {
+  margin-left: 150px;
+  top: 0px;
+  position: absolute;
+}
+.con ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #8e66fc;
+}
+.pad {
+  padding-left: 30px;
+}
